@@ -11,7 +11,7 @@ h1 {
 }
 
 .rectangle {
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   border-color: black;
   margin: 100px 250px;
@@ -38,9 +38,10 @@ h1 {
 }
 
 .preparation-container{
-  background-color: rgb(255, 247, 252);
+  background-color: hsl(330, 100%, 98%);
   margin-left: 40px;
   border-radius: 20px;
+  margin-right:40px;
 }
 
 
@@ -56,15 +57,24 @@ h1 {
   font-weight: 600; 
 }
 
-.list1{
-  margin-top: -10px ;
-  margin-left: -20px;
-  line-height: 2;
+ul {
+  list-style: none; /* Remove default bullet point */
+  padding-left: 0;
 }
+
+.list1 li::before {
+  content: "•"; 
+  color:hsl(332, 51%, 32%); 
+  margin-right: 20px; 
+  margin-left:6px;
+}
+
+.list1 li {
+    margin-top: 8px; /* Adjust spacing between list items */
+  }
 
 .bold-word{
   font-weight:bold;
-  padding-left: 25px;
 }
 
 h2{
@@ -72,22 +82,29 @@ h2{
   font-family: "Young Serif", serif;
   font-size: 30px;
   color:hsl(14, 45%, 36%);
+  margin-bottom:-1px;
 }
 
 .ingredients-text{
   margin-left: 40px;
 }
 
-.list2{
-  margin-top: -10px ;
-  margin-left: -20px;
-  line-height: 2;
-  padding-bottom: 40px;
+.list2 li::before {
+  content: "•"; 
+  color:hsl(14, 45%, 36%); 
+  margin-right: 20px; 
+  margin-left:12px;
 }
+
+.list2 li{
+  margin-top: 10px; /* Adjust spacing between list items */
+}
+
 
 hr{
   margin-left: 0px;
-  margin-right: 20px;
+  margin-right: 40px;
+  margin-top:40px;
   color:hsl(30, 18%, 87%);
 }
 
@@ -95,16 +112,43 @@ hr{
   margin-left: 40px;
 }
 
-.list3{
-  margin-left: -18px; 
+ul{
+  list-style-type: none; /* Remove default numbering */
+  padding-left:42px;
+  margin-right: 55px;
 }
 
-ol{
-  line-height: 2;
-}
-.bold-word2{
-  font-weight:bold;
-  padding-left: 20px;
+.list3 li {
+  counter-increment: list3-counter; /* Increment the counter */
+  margin-top: 15px; /* Adjust spacing between list items */
+
+  display: block; /* Ensure each list item is a block element */
+  text-indent: -35px; /* Adjust text indent to align with numbers */
 }
 
+.list3 li::before {
+  color:hsl(14, 45%, 36%); /* Change the color of the numbering */
+  content: counter(list3-counter) ". "; /* Use the counter for numbering */
+  margin-right: 19px;
+  font-weight: 700;
+}
+
+
+.space-btwn-hr-table{
+  margin-left: 245px; /* Adjust the distance between the two parts */
+  font-weight: 700;
+  color:hsl(14, 45%, 36%);
+}
+
+.hr-table{
+  margin-left: 32px;
+  margin-top:30px;
+}
+
+.hr2{
+  margin-left: -30px;
+  margin-right: 45px;
+  margin-top:-3px;
+  color:hsl(30, 18%, 87%);
+}
 
