@@ -1,0 +1,110 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: rgb(243, 229, 216);
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 400;
+  font-family: "Young Serif", serif;
+  font-size:41px;
+}
+
+.rectangle {
+  background-color: white;
+  border-radius: 20px;
+  border-color: black;
+  margin: 100px 250px;
+  
+}
+
+
+.intro-text {
+  margin: 0 43px;
+}
+
+
+.image-container {
+  width: 660px;
+  height: auto;
+  border-radius: 15px;
+ 
+  margin: auto;
+  display: flex;
+}
+
+.rectangle-content{
+  padding-top: 40px;
+}
+
+.preparation-container{
+  background-color: rgb(255, 247, 252);
+  margin-left: 40px;
+  border-radius: 20px;
+}
+
+
+.preparation-container-content{
+  margin-left:30px;
+  padding-top: 8px;
+  padding-bottom: 8px; 
+}
+
+.preparation-heading{
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+  font-weight: 600; 
+}
+
+.list1{
+  margin-top: -10px ;
+  margin-left: -20px;
+  line-height: 2;
+}
+
+.bold-word{
+  font-weight:bold;
+  padding-left: 25px;
+}
+
+h2{
+  font-weight: 400;
+  font-family: "Young Serif", serif;
+  font-size: 30px;
+  color:hsl(14, 45%, 36%);
+}
+
+.ingredients-text{
+  margin-left: 40px;
+}
+
+.list2{
+  margin-top: -10px ;
+  margin-left: -20px;
+  line-height: 2;
+  padding-bottom: 40px;
+}
+
+hr{
+  margin-left: 0px;
+  margin-right: 20px;
+  color:hsl(30, 18%, 87%);
+}
+
+.instructions-text{
+  margin-left: 40px;
+}
+
+.list3{
+  margin-left: -18px; 
+}
+
+ol{
+  line-height: 2;
+}
+.bold-word2{
+  font-weight:bold;
+  padding-left: 20px;
+}
+
+
