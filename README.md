@@ -1,6 +1,6 @@
 ## Simple Omelette Recipe Page
 
-![Recipe Image](images/image-omelette.jpeg)
+![Recipe Image](images/recipepage.png)
 https://rainaans.github.io/Recipe-Page - Link to hosted site
 
 ### Description
